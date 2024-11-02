@@ -1,0 +1,36 @@
+* 
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    padding: 20px; /* Añadir un poco de espacio alrededor del grid */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente si el contenedor tiene altura */
+    padding: 10px; /* Espacio interno para que las imágenes no toquen los bordes */
+    border: 1px solid #ccc; /* Añade un borde para distinguir las imágenes */
+    background-color: #f9f9f9; /* Fondo claro para resaltar las imágenes */
+}
+
+.image-container img {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+
+article {
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+}
